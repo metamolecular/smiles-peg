@@ -1,0 +1,21 @@
+{
+  "name": "@metamolecular/smiles-peg",
+  "version": "0.0.1",
+  "description": "Parses a SMILES string to a parse tree.",
+  "license": "MIT",
+  "repository": "metamolecular/smiles-peg",
+  "main": "index.js",
+  "keywords": [
+    "smiles",
+    "peg",
+    "parse"
+  ],
+  "devDependencies": {
+    "reify": "0.17.3",
+    "mocha": "5.2.0",
+    "chai": "4.2.0"
+  },
+  "scripts": {
+    "test": "mocha -G --recursive --watch --reporter min --require reify"
+  }
+}
